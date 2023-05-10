@@ -1,0 +1,31 @@
+{
+	"databases": [
+		{
+			"host": "127.0.0.1",
+			"database": "ofs_compas",
+			"username": "root",
+			"password": ""
+		}
+	],
+	"constants": [
+		{
+			"PORTAL": 	"http://localhost/OpenScanner/web/html/"
+		},
+		{
+			"IV": "pjGiElKa2HYbNXLTAsLaeQ=="
+		},
+		{
+			"PASS": "af68d52ca47a576c9857a7057254467e"
+		},
+		{
+			"GC_SITE_KEY": "6LfAyqwkAAAAAGw96Hvnv-e29po8bbTAWVutuH0x"
+		},
+		{
+			"GC_SECRET_KEY": "6LfAyqwkAAAAAJr9EVV6GPO2c9DWnTFJxfH0vu8L"
+		}
+	],
+	"miscs": [
+		"asset_loader.php"
+	],
+	"headers": []
+}

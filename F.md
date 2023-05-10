@@ -1,1 +1,0 @@
-# The Almighty F Class
