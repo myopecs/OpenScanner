@@ -10,3 +10,9 @@ DB::prep()->table("items", function(Table $table){
 	$table->varchar("ukey")->length(100);
 	$table->time("upadateTime");
 });
+
+DB::prep()->table("reports", function(Table $t){
+	$t->varchar("hostname")->length(100);
+	$t->varchar("records")->length(255);
+	$t->time("updatedTime")->length(255);
+});
