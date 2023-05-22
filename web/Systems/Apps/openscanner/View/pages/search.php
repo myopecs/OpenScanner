@@ -212,6 +212,30 @@ if(empty($v)){
 				
 				<?php
 				break;
+
+				case "nmap":
+
+				$fp = fsockopen("www.example.com", 80, $errno, $errstr, 30);
+
+				?>
+				<table class="table table-hover table-bordered">
+					<thead>
+						<tr>
+							<th class="text-center">No</th>
+							<th class="text-center">Type</th>
+							<th>Details</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td>DNS page</td>
+							<td>hello</td>
+							<td>details sini</td>
+						</tr>
+					</tbody>
+				</table>
+				<?php
 			}
 			if(count($record) > 0){
 				

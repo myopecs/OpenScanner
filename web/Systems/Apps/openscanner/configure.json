@@ -2,7 +2,7 @@
 	"databases": [
 		{
 			"host": "127.0.0.1",
-			"database": "ofs_compas",
+			"database": "openscanner",
 			"username": "root",
 			"password": ""
 		}
