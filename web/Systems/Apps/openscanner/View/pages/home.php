@@ -10,19 +10,20 @@
 					
 					<div class="input-group-append">
 						<button class="btn btn-light" data-toggle="modal" data-target="#add-data">
-							<i class="fa fa-plus-circle"></i>
+							<!-- <i class="fa fa-plus-circle"></i> -->
+							<span class="fa fa-search"></span> Search
 						</button>
 					</div>
 				</div>
 
 				
-				<button class="btn btn-light" type="submit">
+				<!-- <button class="btn btn-light" type="submit">
 					<i class="fa fa-search"></i> <?= T::x("Search") ?>
 				</button>
 				
 				<a class="btn btn-light">
 					<i class="fa fa-newspaper-o"></i> <?= T::x("Latest") ?>
-				</a>
+				</a> -->
 				<!-- syahmah comment -->
 			</form>
 		</div>
