@@ -23,6 +23,7 @@
 				<a class="btn btn-light">
 					<i class="fa fa-newspaper-o"></i> <?= T::x("Latest") ?>
 				</a>
+				<!-- syahmah comment -->
 			</form>
 		</div>
 	</div>
